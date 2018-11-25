@@ -8,11 +8,11 @@ A screen cap
 Tested in version 4.1
 Fixed 4.2.7
 Link to source code
-https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7
+<a href='https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7'>Source Code 1</a>
 Steps to recreate:
 visit login page, add redirect requirements, in this case I redirected to the comments page. Once logged in, will take you directily to comments
 LiceCap Walkthrough
- <img src="redirects.GIF" width="800">
+ <img src="redirect.GIF" width="800">
 
 
 
@@ -25,7 +25,7 @@ https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f
 Steps to recreate
 Create a new post, in visual box and text box create a link with javascript, update and view page
 LiceCap Walkthrough
- <img src="XSS2.GIF" width="800">
+ <img src="xss2.GIF" width="800">
 
 
 3.XSS
@@ -35,4 +35,4 @@ https://github.com/WordPress/WordPress/blob/master/wp-comments-post.php
 Steps to recreate
 Go to page, create comment, post javascript
 LiceCap Walkthrough
- <img src="XSS3.GIF" width="800">
+ <img src="xss3.GIF" width="800">
