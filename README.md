@@ -41,3 +41,8 @@ Go to page, create comment, post javascript
 LiceCap Walkthrough
 
  <img src="xss3.gif" width="800">
+ 
+ 4. I did discover the genericon vulnerability by using WPSCAN, and that it should be present in version 4.1/4.2, but I could not create it for some reason.
+ I tried putting this into my browser and other versions of this same code but it wouldnt work. Just took me to the login page. 
+ 
+http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#1%3Cimg/%20src=1%20onerror=%20alert(1)%3E
